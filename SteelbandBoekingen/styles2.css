@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(245, 245, 118);
+  color: black;
+  text-align: center;
+  padding: 5px 8px;
+}
+
+.header {
+  font-size: 60px;
+  color: red;
+}
+
+.punten {
+  font-size: 20px;
+  text-align: left;
+}
+
+.footer {
+  font-size: 30px;
+  border: black;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
+  background-color: yellow;
+}
+
+a.menu:visited,
+a.menu:link {
+  text-decoration: none;
+  color: black;
+}
+a.menu:hover,
+a.menu:active {
+  font-size: 125%;
+  color: red;
+}
+
+@media (min-width: 768px) {
+  .fotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .foto {
+    border: green;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+  }
+  .punten {
+    border: green;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5px;
+  }
+  .video {
+    border: green;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 50px 20px;
+    margin: 5px;
+  }
+  .punt-vid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

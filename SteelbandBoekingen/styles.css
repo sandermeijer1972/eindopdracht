@@ -1,0 +1,160 @@
+body {
+  background-color: rgb(245, 245, 118);
+  color: black;
+  text-align: center;
+  padding: 5px 8px;
+}
+
+.header {
+  font-size: 60px;
+  color: red;
+}
+
+.footer {
+  font-size: 30px;
+  border: black;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
+  background-color: yellow;
+}
+
+.welkom {
+  font-size: 20px;
+  text-align: left;
+}
+
+.keuze {
+  font-size: 30px;
+  border: black;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  background-color: rgb(12, 180, 12);
+}
+
+a.menu:visited,
+a.menu:link {
+  text-decoration: none;
+  color: black;
+}
+a.menu:hover,
+a.menu:active {
+  font-size: 125%;
+  color: red;
+}
+
+.formtekst {
+  font-size: 20px;
+  text-align: left;
+}
+
+.formulier {
+  font-size: 20px;
+  text-align: right;
+  border: green;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px;
+}
+
+@media (min-width: 768px) {
+  .top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .header {
+    grid-column: 1 / -1;
+  }
+  .welkom {
+    border: green;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .kiezen {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .vraagbaak {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .formtekst {
+    border: green;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5px;
+  }
+  a.menu:visited,
+  a.menu:link {
+    text-decoration: none;
+    color: black;
+  }
+  a.menu:hover,
+  a.menu:active {
+    font-size: 100%;
+    color: red;
+  }
+}
+
+@media (min-width: 1024px) {
+  .top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .header {
+    grid-column: 1 / -1;
+  }
+  .welkom {
+    border: green;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .formtekst {
+    border: green;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5px;
+  }
+  .kiezen {
+    display: flex;
+    flex-direction: column;
+  }
+  .breed {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .punten {
+    border: green;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5px;
+  }
+  a.menu:visited,
+  a.menu:link {
+    text-decoration: none;
+    color: black;
+  }
+  a.menu:hover,
+  a.menu:active {
+    font-size: 125%;
+    color: red;
+  }
+}
